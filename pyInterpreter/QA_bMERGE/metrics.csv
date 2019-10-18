@@ -1,0 +1,12 @@
+mean position error x/y/z, 7.9922, 3.03062, 12.6923
+sigma position error x/y/z, 19.8425, 6.72165, 32.7163
+RMS position error x/y/z, 21.3916, 7.37328, 35.092
+GCP name, accuracy xy, accuracy z, error x, error y, error z, mean projection error, number valid reprojections, number image marks
+2, none, none, 1.1683, 1.40861, 0.281998, 1.805, 3, 3
+58, none, none, 0.0779213, 0.594412, 0.162077, 0.547109, 3, 3
+73, none, none, 0.558468, 0.235023, 0.00743704, 0.494718, 3, 3
+89, none, none, 0.257412, 0.219662, 0.177008, 0.789123, 2, 2
+90, none, none, 0.265259, 0.331253, 0.129083, 2.97431, 2, 2
+91, none, none, 0.608758, 0.584539, 0.693483, 0.332515, 2, 2
+92, none, none, 0.517359, 0.0863055, 0.83889, 8.15413, 4, 4
+93, none, none, 60.4842, 20.7851, 99.2484, none, 0, 0

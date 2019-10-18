@@ -1,0 +1,44 @@
+Help on ReconstructionMetrics in module Pix4Dmatic object:
+
+class ReconstructionMetrics(pybind11_builtins.pybind11_object)
+ |  Method resolution order:
+ |      ReconstructionMetrics
+ |      pybind11_builtins.pybind11_object
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __init__(self, /, *args, **kwargs)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  __repr__(...)
+ |      __repr__(self: Pix4Dmatic.ReconstructionMetrics) -> str
+ |  
+ |  track_count(...)
+ |      track_count(*args, **kwargs)
+ |      Overloaded function.
+ |      
+ |      1. track_count(self: Pix4Dmatic.ReconstructionMetrics, arg0: int) -> int
+ |      
+ |      2. track_count(self: Pix4Dmatic.ReconstructionMetrics, arg0: int, arg1: int) -> Optional[int]
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  calibrated_cameras_count
+ |  
+ |  mean_relative_difference_sensor_parameters
+ |  
+ |  atps.median_tracks_count_per_camera 
+ |  
+ |  points_gsd
+
+    gcps
+
+
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from pybind11_builtins.pybind11_object:
+ |  
+ |  __new__(*args, **kwargs) from pybind11_builtins.pybind11_type
+ |      Create and return a new object.  See help(type) for accurate signature.

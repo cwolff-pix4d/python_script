@@ -1,0 +1,49 @@
+Help on Cluster in module Pix4Datlas object:
+
+class Cluster(pybind11_builtins.pybind11_object)
+ |  Cluster
+ |  
+ |  Method resolution order:
+ |      Cluster
+ |      pybind11_builtins.pybind11_object
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __init__(self, /, *args, **kwargs)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  __repr__(...)
+ |      __repr__(self: Pix4Datlas.Cluster) -> str
+ |  
+ |  add_gcps_from(...)
+ |      add_gcps_from(self: Pix4Datlas.Cluster, arg0: str, **kwargs) -> p4d::atl::script::ProcessingStatus
+ |      
+ |      Add GCPs to the cluster from a file (txt, csv)
+ |  
+ |  add_images_from(...)
+ |      add_images_from(self: Pix4Datlas.Cluster, arg0: str, **kwargs) -> p4d::atl::script::ProcessingStatus
+ |      
+ |      Add images to the cluster from a folder
+ |  
+ |  densify(...)
+ |      densify(self: Pix4Datlas.Cluster) -> p4d::atl::script::ProcessingStatus
+ |      
+ |      Densify the sparse point cloud
+ |  
+ |  reconstruct(...)
+ |      reconstruct(self: Pix4Datlas.Cluster) -> p4d::atl::script::ProcessingStatus
+ |      
+ |      Reconstruct the scene
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  name
+ |      The cluster name
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from pybind11_builtins.pybind11_object:
+ |  
+ |  __new__(*args, **kwargs) from pybind11_builtins.pybind11_type
+ |      Create and return a new object.  See help(type) for accurate signature.

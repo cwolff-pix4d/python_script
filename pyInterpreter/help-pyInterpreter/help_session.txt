@@ -1,0 +1,54 @@
+Help on Session in module Pix4Datlas object:
+
+class Session(pybind11_builtins.pybind11_object)
+ |  The application root element
+ |  
+ |  Method resolution order:
+ |      Session
+ |      pybind11_builtins.pybind11_object
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __init__(self, /, *args, **kwargs)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  __repr__(...)
+ |      __repr__(self: Pix4Datlas.Session) -> str
+ |  
+ |  find_project(...)
+ |      find_project(self: Pix4Datlas.Session, arg0: str) -> p4d::atl::script::ProjectWrapper
+ |      
+ |      Find a project by name
+ |  
+ |  new_project(...)
+ |      new_project(self: Pix4Datlas.Session, arg0: str, arg1: str) -> p4d::atl::script::ProjectWrapper
+ |      
+ |      Create a new project
+ |  
+ |  open_project(...)
+ |      open_project(self: Pix4Datlas.Session, arg0: str) -> p4d::atl::script::ProjectWrapper
+ |      
+ |      Open an existing project from its path
+ |  
+ |  project_at(...)
+ |      project_at(self: Pix4Datlas.Session, arg0: int) -> p4d::atl::script::ProjectWrapper
+ |      
+ |      get a project by index
+ |  
+ |  quit(...)
+ |      quit(self: Pix4Datlas.Session) -> None
+ |      
+ |      Quit the application
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  project_count
+ |      Project count in the session
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from pybind11_builtins.pybind11_object:
+ |  
+ |  __new__(*args, **kwargs) from pybind11_builtins.pybind11_type
+ |      Create and return a new object.  See help(type) for accurate signature.

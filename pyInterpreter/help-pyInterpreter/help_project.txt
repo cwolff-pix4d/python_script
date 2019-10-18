@@ -1,0 +1,77 @@
+Help on Project in module Pix4Datlas object:
+
+class Project(pybind11_builtins.pybind11_object)
+ |  Project
+ |  
+ |  Method resolution order:
+ |      Project
+ |      pybind11_builtins.pybind11_object
+ |      builtins.object
+ |  
+ |  Methods defined here:
+ |  
+ |  __init__(self, /, *args, **kwargs)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  __repr__(...)
+ |      __repr__(self: Pix4Datlas.Project) -> str
+ |  
+ |  active_cluster(...)
+ |      active_cluster(self: Pix4Datlas.Project) -> p4d::atl::script::ProcessingSpaceWrapper
+ |      
+ |      The active cluster in the project
+ |  
+ |  close(...)
+ |      close(self: Pix4Datlas.Project) -> None
+ |      
+ |      Close the project without saving
+ |  
+ |  cluster_at(...)
+ |      cluster_at(self: Pix4Datlas.Project, arg0: int) -> p4d::atl::script::ProcessingSpaceWrapper
+ |      
+ |      Get a cluster by index
+ |  
+ |  duplicate(...)
+ |      duplicate(self: Pix4Datlas.Project, arg0: p4d::atl::script::ProcessingSpaceWrapper) -> None
+ |      
+ |      Duplicate a cluster
+ |  
+ |  error(...)
+ |      error(self: Pix4Datlas.Project, arg0: str) -> None
+ |      
+ |      Print an error message
+ |  
+ |  info(...)
+ |      info(self: Pix4Datlas.Project, arg0: str) -> None
+ |      
+ |      Print an information message
+ |  
+ |  print(...)
+ |      print(self: Pix4Datlas.Project, arg0: str) -> None
+ |      
+ |      Print an debug message
+ |  
+ |  save(...)
+ |      save(self: Pix4Datlas.Project) -> None
+ |      
+ |      Save the project to the disk
+ |  
+ |  warning(...)
+ |      warning(self: Pix4Datlas.Project, arg0: str) -> None
+ |      
+ |      Print a warning message
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  is_valid
+ |      True is the project is valid
+ |  
+ |  name
+ |      The project name
+ |  
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from pybind11_builtins.pybind11_object:
+ |  
+ |  __new__(*args, **kwargs) from pybind11_builtins.pybind11_type
+ |      Create and return a new object.  See help(type) for accurate signature.

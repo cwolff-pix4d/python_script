@@ -1,0 +1,32 @@
+class GcpMetrics(pybind11_builtins.pybind11_object)
+ |  Method resolution order:
+ |      GcpMetrics
+ |      pybind11_builtins.pybind11_object
+ |      builtins.object
+ |
+ |  Methods defined here:
+ |
+ |  __init__(self, /, *args, **kwargs)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |
+ |  __repr__(...)
+ |      __repr__(self: Pix4Dmatic.GcpMetrics) -> str
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |
+ |  gcp
+ |
+ |  position_error_RMSs
+ |
+ |  position_error_means
+ |
+ |  position_error_sigmas
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from pybind11_builtins.pybind11_object:
+
+cluster.export_gcp_metrics(r"C:\Users\cwolff\Desktop\QA_bMERGE\metrics.txt")
+cluster.export_gcp_metrics(r"C:\Users\cwolff\Desktop\QA_bMERGE\metrics.csv")
+
+

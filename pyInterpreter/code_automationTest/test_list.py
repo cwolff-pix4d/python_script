@@ -1,5 +1,6 @@
 
 import os
+import shutil
 from datetime import datetime
 from parameters_cameras import *
 
@@ -17,8 +18,6 @@ def read_projects(path):
     file_info_processing = path[3]
     py_test_case = path[4]
 
-    if os.path.exists(folder_to_stock_project):
-        os.remove(folder_to_stock_project)
     if not os.path.exists(folder_to_stock_project):
         os.makedirs(folder_to_stock_project)
 
@@ -31,6 +30,8 @@ def read_projects(path):
     dataset_list = file_datasets.readlines()
     for dataset in dataset_list:
         if dataset.split(";")[0]!= "*":
+            if os.path.exists(os.path.join(folder_to_stock_project, dataset.split(";")[1])):
+                shutil.rmtree(os.path.join(folder_to_stock_project, dataset.split(";")[1]))
             os.environ["Dataset"] = dataset
             os.environ["Folder_to_stock_project"] = folder_to_stock_project
             os.environ["File_info_processing"] = file_info_processing

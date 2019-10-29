@@ -113,5 +113,5 @@ def timeCalibDense(sec_C, sec_D):
 #p4d2gcps_file()
 
 
-timeCalibDense(123640,118295)
-sec2min2hour(121579)
+#timeCalibDense(123640,118295)
+sec2min2hour(11225)
